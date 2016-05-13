@@ -1,10 +1,6 @@
 'use strict'
-module.exports = plugin
+module.exports = (mos, md) => Object.assign(mos.scope, require('./lib')(md))
 
-const createExampleRenderer = require('./lib/create-example-renderer')
-
-function plugin (markdown) {
-  return {
-    example: createExampleRenderer(markdown),
-  }
+module.exports.attributes = {
+  pkg: require('./package.json'),
 }
