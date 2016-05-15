@@ -8,8 +8,8 @@
 
 <!--@shields.flatSquare('npm', 'travis', 'coveralls')-->
 [![NPM version](https://img.shields.io/npm/v/mos-plugin-example.svg?style=flat-square)](https://www.npmjs.com/package/mos-plugin-example)
-[![Build status for master](https://img.shields.io/travis/zkochan/mos-plugin-example/master.svg?style=flat-square)](https://travis-ci.org/zkochan/mos-plugin-example)
-[![Test coverage for master](https://img.shields.io/coveralls/zkochan/mos-plugin-example/master.svg?style=flat-square)](https://coveralls.io/r/zkochan/mos-plugin-example?branch=master)
+[![Build status for master](https://img.shields.io/travis/mosjs/mos-plugin-example/master.svg?style=flat-square)](https://travis-ci.org/mosjs/mos-plugin-example)
+[![Test coverage for master](https://img.shields.io/coveralls/mosjs/mos-plugin-example/master.svg?style=flat-square)](https://coveralls.io/r/mosjs/mos-plugin-example?branch=master)
 <!--/@-->
 
 <!--@installation()-->
@@ -131,7 +131,7 @@ console.log(sum(...numbers))
 * * *
 
 <!--@dependencies({ shield: 'flat-square' })-->
-## Dependencies [![Dependency status for master](https://img.shields.io/david/zkochan/mos-plugin-example/master.svg?style=flat-square)](https://david-dm.org/zkochan/mos-plugin-example/master)
+## Dependencies [![Dependency status for master](https://img.shields.io/david/mosjs/mos-plugin-example/master.svg?style=flat-square)](https://david-dm.org/mosjs/mos-plugin-example/master)
 
 - [codemo](https://github.com/zkochan/codemo): Embeds console output to the code
 - [independent](https://github.com/zkochan/independent): Change relative requires to import actual modules
@@ -139,7 +139,7 @@ console.log(sum(...numbers))
 <!--/@-->
 
 <!--@devDependencies({ shield: 'flat-square' })-->
-## Dev Dependencies [![devDependency status for master](https://img.shields.io/david/dev/zkochan/mos-plugin-example/master.svg?style=flat-square)](https://david-dm.org/zkochan/mos-plugin-example/master#info=devDependencies)
+## Dev Dependencies [![devDependency status for master](https://img.shields.io/david/dev/mosjs/mos-plugin-example/master.svg?style=flat-square)](https://david-dm.org/mosjs/mos-plugin-example/master#info=devDependencies)
 
 - [babel-preset-es2015-rollup](https://npmjs.org/package/babel-preset-es2015-rollup): This is [babel-preset-es2015](http://babeljs.io/docs/plugins/preset-es2015/), minus [modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs/), plus [external-helpers](http://babeljs.io/docs/plugins/external-helpers/). Use it wi
 - [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
