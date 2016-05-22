@@ -133,6 +133,7 @@ console.log(sum(...numbers))
 <!--@dependencies({ shield: 'flat-square' })-->
 ## Dependencies [![Dependency status for master](https://img.shields.io/david/mosjs/mos-plugin-example/master.svg?style=flat-square)](https://david-dm.org/mosjs/mos-plugin-example/master)
 
+- [babel-runtime](https://github.com/babel/babel/blob/master/packages): babel selfContained runtime
 - [codemo](https://github.com/zkochan/codemo): Embeds console output to the code
 - [independent](https://github.com/zkochan/independent): Change relative requires to import actual modules
 
@@ -141,6 +142,11 @@ console.log(sum(...numbers))
 <!--@devDependencies({ shield: 'flat-square' })-->
 ## Dev Dependencies [![devDependency status for master](https://img.shields.io/david/dev/mosjs/mos-plugin-example/master.svg?style=flat-square)](https://david-dm.org/mosjs/mos-plugin-example/master#info=devDependencies)
 
+- [babel-cli](https://github.com/babel/babel/blob/master/packages): Babel command line.
+- [babel-plugin-add-module-exports](https://github.com/59naga/babel-plugin-add-module-exports): Fix babel/babel#2212
+- [babel-plugin-transform-runtime](https://github.com/babel/babel/blob/master/packages): Externalise references to helpers and builtins, automatically polyfilling your code without polluting globals
+- [babel-preset-es2015](https://github.com/babel/babel/blob/master/packages): Babel preset for all es2015 plugins.
+- [babel-register](https://github.com/babel/babel/blob/master/packages): babel require hook
 - [babel-preset-es2015-rollup](https://npmjs.org/package/babel-preset-es2015-rollup): This is [babel-preset-es2015](http://babeljs.io/docs/plugins/preset-es2015/), minus [modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs/), plus [external-helpers](http://babeljs.io/docs/plugins/external-helpers/). Use it wi
 - [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
 - [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog): Commitizen adapter following the conventional-changelog format.

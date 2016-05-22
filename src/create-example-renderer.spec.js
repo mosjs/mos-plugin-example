@@ -36,7 +36,7 @@ describe('createExampleRenderer', () => {
         expect(actual).to.eq([
           '``` js',
           '\'use strict\'',
-          'const fooBar = require(\'foo-bar\')',
+          'var fooBar = require(\'foo-bar\')',
           'console.log(fooBar)',
           '//> Hello world!',
           '```',
@@ -69,7 +69,7 @@ describe('createExampleRenderer', () => {
         expect(actual).to.eq([
           '``` js',
           "'use strict'",
-          "const s = 'Hello world!'",
+          "var s = 'Hello world!'",
           'console.log(s)',
           '//> Hello world!',
           '```',
